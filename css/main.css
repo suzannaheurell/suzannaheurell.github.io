@@ -1,0 +1,409 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	font-family: Mark Pro;
+	background-color: white;
+}
+
+.navbar-inverse {
+	background-color: transparent;
+	font-size: 18px;
+	font-family: Mark Pro;
+	text-align: right;
+}
+.navbar-brand {
+	font-size: 22px;
+	padding-right: 40px;
+}
+.navbar-fixed-top {
+	border: 0;
+}
+
+.main-image {
+	width:100%;
+	height: 100vh;
+	background: url(../images/interval1.jpg) no-repeat top center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 890px){
+	.main-image{
+		background: url(../images/interval1.jpg) no-repeat;
+		background-position: left -890px top 0px;
+
+	}
+}
+@media (max-width: 575px){
+	.main-image{
+		background: url(../images/interval1.jpg) no-repeat;
+		background-position: left -1140px top 0px;
+	}
+	#abouttext{
+		font-size: 18px;
+	}
+	#suzannah{
+		color:white;
+	}
+	#navbar {
+		color: black;
+	}
+
+
+}
+
+.image2 {
+	width:100%;
+	height: 100vh;
+	background: url(../images/mainimage.jpg) no-repeat top center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.image3 {
+	width:100%;
+	height: 100vh;
+	background: url(../images/image3.jpg) no-repeat top center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.image3.hovertext {
+	position: absolute;
+	top: 0;
+	left:0;
+	text-align: center;
+	width: 100%;
+	height:100%;
+	background-color: white;
+	opacity: 0;
+	transition: opacity 0.4s;
+}
+
+.image3.hovertext:hover {
+	opacity: 0.9;
+}
+
+.image5 {
+	width:100%;
+	height: 100vh;
+	background: url(../images/image5.jpg) no-repeat top center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 24px;
+	color: white;
+}
+
+#contact{
+	color: black;
+}
+
+#work{
+	color: white;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+}
+
+#about{
+	color: white;
+}
+
+#abouttext{
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-top: 30px;
+	color: white;
+}
+
+
+.grey-bar{
+	width: 100%;
+	height: 200px;
+}
+
+.header-image{
+	width:100%;
+	height: 100vh;
+	background: url(../images/header-image.jpg) no-repeat top center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.websites {
+	text-align: center;
+	font-size: 28px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.pwebsites {
+	color:black;
+	text-align: center;
+	font-size: 18px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 50px;
+}
+
+.container1{
+	text-align: center;
+}
+
+.container2{
+	padding-top: 100px;
+	text-align: center;
+}
+
+.container3{
+	padding-top: 100px;
+	text-align: center;
+}
+
+.ppage2{
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+
+
+
+/*.bounce {
+  0%, 20%, 53%, 80%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+}
+
+  40% {
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -6px, 0);
+  }
+
+  70% {
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -4px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-2px,0);
+  }
+}*/
+
+footer {
+	text-align: center;
+	background-color: white;
+}
+
+footer ul li {
+  padding-top: 30px;
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+form {
+ width:90%;
+  max-width:300px;
+  margin:15px auto;
+}
+
+input, textarea {
+  width:100%;
+  margin-bottom:10px;
+  border-radius:3px;
+  border:solid 1px #ccc;
+  padding:4px 7px;
+}
+
+#eml, #tel {
+  width:49%;
+}
+#tel {
+  float:right;
+}
+.form-submit {
+  width: 120px;
+  float:left;
+/*  margin-left:15px;
+*/  border-radius:3px;
+  border:solid 1px #ccc;
+  padding:4px 7px;
+}
+.form-submit:hover {
+  background-color:white;
+}
+
+.img1{
+	position: relative;
+	padding-top: 100px;
+}
+
+.img1 .hovertext {
+	position: absolute;
+	top: 0;
+	left:0;
+	text-align: center;
+	width: 100%;
+	height:100%;
+	background-color: white;
+	opacity: 0;
+	transition: opacity 0.4s;
+}
+
+.img1 .hovertext:hover {
+	opacity: 0.9;
+}
+
+.img1 h2{
+	position:absolute;
+	top:50%;
+	left:0;
+	margin-top: -15px;
+	width: 100%
+}
+.img2{
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.img2 .hovertext {
+	position: absolute;
+	top: 0;
+	left:0;
+	text-align: center;
+	width: 100%;
+	height:100%;
+	background-color: white;
+	opacity: 0;
+	transition: opacity 0.4s;
+}
+
+.img2 .hovertext:hover {
+	opacity: 0.9;
+}
+
+.img2 h2{
+	position:absolute;
+	top:50%;
+	left:0;
+	margin-top: -15px;
+	width: 100%
+}
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	body{
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	img{
+	margin:15px 0;
+
+}
+	
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
