@@ -55,9 +55,8 @@ body {
 	#navbar {
 		color: black;
 	}
-
-
 }
+
 
 .image2 {
 	width:100%;
@@ -81,21 +80,6 @@ body {
 	align-items: center;
 }
 
-.image3.hovertext {
-	position: absolute;
-	top: 0;
-	left:0;
-	text-align: center;
-	width: 100%;
-	height:100%;
-	background-color: white;
-	opacity: 0;
-	transition: opacity 0.4s;
-}
-
-.image3.hovertext:hover {
-	opacity: 0.9;
-}
 
 .image5 {
 	width:100%;
@@ -196,28 +180,6 @@ a{
 }
 
 
-
-/*.bounce {
-  0%, 20%, 53%, 80%, 100% {
-    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    transform: translate3d(0,0,0);
-}
-
-  40% {
-    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    transform: translate3d(0, -6px, 0);
-  }
-
-  70% {
-    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    transform: translate3d(0, -4px, 0);
-  }
-
-  90% {
-    transform: translate3d(0,-2px,0);
-  }
-}*/
-
 footer {
 	text-align: center;
 	background-color: white;
@@ -271,9 +233,10 @@ input, textarea {
   background-color:white;
 }
 
-.img1{
+.allimgs{
 	position: relative;
-	padding-top: 100px;
+	margin-top: 100px;
+	padding-bottom: 50px;
 }
 
 .img1 .hovertext {
@@ -299,10 +262,10 @@ input, textarea {
 	margin-top: -15px;
 	width: 100%
 }
-.img2{
+.img2, .img1{
 	position: relative;
-	padding-top: 50px;
-	padding-bottom: 100px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .img2 .hovertext {
@@ -332,7 +295,6 @@ input, textarea {
 
 
 
-
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */ 
@@ -343,7 +305,6 @@ input, textarea {
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
 
-}
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
@@ -383,11 +344,32 @@ input, textarea {
 
 }
 	
+
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
+.pwebsites {
+	color:black;
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 50px;
+}
+.container1{
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
 
+.container2{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.container3{
+	padding-top: 20px;
+	text-align: center;
+}
 }
 
 /* Custom, iPhone Retina */ 
